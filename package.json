@@ -4,7 +4,7 @@
   "author": "harshita :-)",
   "version": "0.0.1",
   "devDependencies": {
-    "python": "2.7.12"
+    "python"
   },
   "scripts": {
     "test": "python hello.py"
