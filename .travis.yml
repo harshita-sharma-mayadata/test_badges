@@ -1,1 +1,3 @@
-language: ansible
+language: python
+python:
+ - "python"
