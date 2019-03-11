@@ -1,0 +1,12 @@
+{
+  "name": "learn-travis-HARSHITA",
+  "description": "Simple Travis-CI check for PYTHON (Code Linting)",
+  "author": "harshita :-)",
+  "version": "0.0.1",
+  "devDependencies": {
+    "python": "2.7.12"
+  },
+  "scripts": {
+    "test": "python hello.py"
+  }
+}
