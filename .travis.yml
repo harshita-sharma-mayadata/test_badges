@@ -5,8 +5,5 @@ python:
 #install:
   #- pip install python
 # command to run tests
-script:
-  - pytest
-
 
 
