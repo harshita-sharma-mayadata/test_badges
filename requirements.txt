@@ -1,2 +1,3 @@
 list
 Pillow
+python-coveralls
