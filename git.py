@@ -6,8 +6,7 @@ with open("README.md", "a") as myfile:
 
 cmd = "git add README.md"
 cmd1 = "git commit -s -m {}".format("update")
-cmd2 = "git push https://harshita-sharma-mayadata:mygithubpass%40123321@github.com/harshita-sharma-mayadata/test_badges.git
-"
+cmd2 = "git push https://harshita-sharma-mayadata:mygithubpass%40123321@github.com/harshita-sharma-mayadata/test_badges.git"
 os.system(cmd)
 os.system(cmd1)
 os.system(cmd2)
