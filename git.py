@@ -1,6 +1,6 @@
 #git push https://username:password@myrepository.biz/file.git --all
 import os
-with open("/home/mayadata/Desktop/badges/README.md", "a") as myfile:
+with open("README.md", "a") as myfile:
     myfile.write("update text")
 
 
