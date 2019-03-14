@@ -1,6 +1,6 @@
 #git push https://username:password@myrepository.biz/file.git --all
 import os
-with open("README.md", "a") as myfile:
+with open("TEST.md", "a") as myfile:
     myfile.write("update text")
 
 
