@@ -1,7 +1,25 @@
 #git push https://username:password@myrepository.biz/file.git --all
 import os
-with open("TEST.md", "a") as myfile:
-    myfile.write("update text")
+import re
+
+
+
+num_tests = str(sum(1 for line in open('TESTS.md')))
+num_tests = '-'+num_tests+'-'
+
+
+myfile =  open("README.md", "r") 
+line = myfile.readlines()
+
+match = re.sub(r'\-(.*)\-',num_tests,line[1])
+
+line[1] = match 
+
+myfile = open("README.md", "w")
+
+myfile.writelines(line)
+	
+myfile.close()			 
 
 
 cmd = "git add README.md"
