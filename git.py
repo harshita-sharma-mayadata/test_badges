@@ -11,9 +11,9 @@ num_tests = '-'+num_tests+'-'
 myfile =  open("README.md", "r") 
 line = myfile.readlines()
 
-match = re.sub(r'\-(.*)\-',num_tests,line[1])
+match = re.sub(r'\-(.*)\-',num_tests,line[2])
 
-line[1] = match 
+line[2] = match 
 
 myfile = open("README.md", "w")
 
