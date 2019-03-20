@@ -1,6 +1,6 @@
 # MDAP Automation
 ![Runs](https://badges.openebs.ci/badge/E2E%20runs-2-orange.svg)
-![Coverage](https://badges.openebs.ci/badge/E2E%20coverage-52%25-green.svg)
+![Coverage](https://badges.openebs.ci/badge/E2E%20coverage-2-green.svg)
 
 
 
